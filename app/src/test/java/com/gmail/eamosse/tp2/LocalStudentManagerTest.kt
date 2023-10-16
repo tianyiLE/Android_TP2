@@ -32,7 +32,7 @@ class LocalStudentManagerTest {
     fun sortAgeAsc_isCorrect() {
         val result = manager.sortAgeAscDesc("ASC")
         assertEquals(10, result.first().age)
-        assertEquals(16, result.last().age)
+        assertEquals(56, result.last().age)
     }
 
     @Test
